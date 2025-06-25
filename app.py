@@ -148,7 +148,7 @@ with st.sidebar:
     st.title("Multi-Document Retrieval with Watsonx")
     st.sidebar.write("") 
     st.sidebar.markdown("Developed by **Abdul Rahman H**")
-    watsonx_model = st.selectbox("Model", ["meta-llama/llama-3-405b-instruct", "codellama/codellama-34b-instruct-hf", "ibm/granite-20b-multilingual"])
+    watsonx_model = st.selectbox("Model", ["meta-llama/llama-3-405b-instruct", "ibm/granite-34b-code-instruct", "google/flan-t5-xxl"])
     max_new_tokens = st.slider("Max output tokens", min_value=100, max_value=4000, value=600, step=100)
     decoding_method = st.radio("Decoding", (DecodingMethods.GREEDY.value, DecodingMethods.SAMPLE.value))
     parameters = {
