@@ -5,7 +5,7 @@ colorFrom: purple
 colorTo: pink
 sdk: streamlit
 sdk_version: 1.40.0
-app_file: app.py
+app_file: app1.py
 pinned: false
 ---
 
@@ -140,5 +140,6 @@ For more blogs and interesting projects, visit my personal website: [https://abd
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
+
 
 
