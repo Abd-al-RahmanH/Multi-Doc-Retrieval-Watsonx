@@ -13,7 +13,8 @@ from docx import Document
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain.chains import RetrievalQA, LLMChain
+from langchain.chains.retrieval_qa.base import RetrievalQA
+from langchain.chains.llm import LLMChain
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.prompts import PromptTemplate
 
