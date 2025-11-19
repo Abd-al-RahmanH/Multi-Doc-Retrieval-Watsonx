@@ -1,12 +1,12 @@
-langchain
+#langchain
 streamlit
 ibm_watson_machine_learning
 pypdf
 sentence-transformers
 chromadb
 watchdog
-langchain-ibm
-langchain-community
+#langchain-ibm
+#langchain-community
 python-docx 
 python-pptx
 huggingface-hub
@@ -16,3 +16,7 @@ beautifulsoup4
 pandas
 python-dotenv
 faiss-cpu
+langchain==0.1.20
+langchain-community==0.0.30
+langchain-ibm
+
